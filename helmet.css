@@ -1,0 +1,111 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrtrYGQif2rRkeJEFlPppwW4CgJriqcARG0Q&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    background-position: center bottom;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+}
+
+.nav {
+    background-color: black;
+    border: 1px solid red;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    left: 0px;
+    color: white;
+    z-index: 2;
+}
+
+.home {
+   background-color: black;
+    border: 1px solid red;
+    height: 75px;
+    width: 345px;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    color: white;
+    z-index: 3;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+    
+}
+
+.feature {
+    background-color: black;
+    border: 1px solid red;
+    height: 75px;
+    width: 345px;
+    position: fixed;
+    left: 346px;
+    top: 0px;
+    margin: 0px;
+    z-index: 3;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+}
+
+.about {
+    background-color: black;
+    border: 1px solid red;
+    height: 75px;
+    width: 345px;
+    position: fixed;
+    left: 691px;
+    top: 0px;
+    margin: 0px;
+    color: white;
+    z-index: 3;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+    
+}
+
+
+.support {
+    background-color: black;
+    border: 1px solid red;
+    height: 75px;
+    width: 345px;
+    position: fixed;
+    left: 1036px;
+    top: 0px;
+    margin: 0px;
+    color: white;
+    z-index: 3;
+    font-size: larger;
+    text-align: center;
+    line-height: 65px;
+    text-decoration-line: underline;
+}
+a:hover, a:active {
+    color: red;
+}
+
+a:link {
+    color: white;
+}
+
+.info {
+    border: 5px solid red;
+    position: absolute;
+    top: 100px;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    left: 250px;
+    font-size: 15px;
+
+}
